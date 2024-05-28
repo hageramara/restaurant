@@ -1,0 +1,929 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    padding: 15px 0px;
+    z-index: 999;
+
+}
+
+.navbar-content {
+    width: 90%;
+    margin: auto;
+    color: white;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 9999;
+
+}
+
+.links {
+    width: 30%;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.links li a {
+    color: #212529;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.logo h2 {
+    color: #212529;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.nav-icon {
+    color: #212529;
+    font-size: 25px;
+}
+
+
+
+.links li {
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+
+.brdr{
+    width: 100%;
+    height: 3px;
+    margin-top: 5px;
+    background-color: #ce1212;
+    position: absolute;
+    right: 100%;
+    bottom: -5%;
+    visibility: hidden;
+    transition: all .5s;
+    transition: all .5s;
+    transition: all .5s;
+}
+
+.links li:hover .brdr {
+    visibility: visible;
+    right: 0;
+}
+.hello {
+    background-color: #eee;
+}
+
+.container-hello {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.hello-inf p {
+    Font-size: 16px;
+    Font-weight: 400;
+    font-family: "Open Sans";
+    padding: 15px 10px;
+}
+
+.hello-inf {
+    margin-top: 40px;
+    width: 70%;
+    padding: 20px 20px;
+    padding-top: 50px;
+}
+
+.hello-inf h1 {
+    font-family: 'Amatic SC', cursive;
+    Font-size: 65px;
+    Font-weight: 600;
+    width: 70%;
+    padding: 15px 10px;
+}
+
+.hello-img {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.hello-img img {
+    width: 100%;
+}
+
+.btn-hello {
+
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+
+
+}
+
+.btn1 button {
+    background-color: hsl(0, 84%, 44%);
+    padding: 15px 20px;
+    margin: 0px 20px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+
+
+
+}
+
+.icon-header {
+    display: flex;
+    align-items: center;
+    padding: 3px 3px;
+
+}
+
+.icon-header i {
+    padding: 5px 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.container-chefs {
+    width: 100%;
+}
+
+.cook {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+   
+}
+
+.layer {
+    background-color: #ffffff4d;
+    position: absolute;
+    top: 10%;
+    left: 100%;
+    transition: left 1s;
+
+}
+
+.footer-icons i {
+
+    padding: 15px;
+    font-size: 20px;
+    margin: auto;
+    color: #7f7f90;
+
+}
+
+.meal:hover .layer {
+    left: 85%;
+}
+
+.meal:hover .wave {
+    transform: scale(1.1, 1.1);
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title p {
+    Font-family: Inter, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+
+}
+
+.title h2 {
+    font-family: 'Amatic SC', cursive;
+    Font-size: 50px;
+    Font-weight: 400;
+    color: #212529;
+}
+
+.title h2 span {
+    font-family: 'Amatic SC', cursive;
+    Font-size: 50px;
+    Font-weight: 400;
+    color: hsl(0, 84%, 44%);
+}
+
+.meals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.wave img {
+    width: 100%;
+}
+
+.meal {
+    width: 33, 33%;
+    border: solid 20px white;
+    transition: transform 2s;
+}
+
+.wave {
+    position: relative;
+    overflow: hidden;
+}
+
+.information h3 {
+    Font-family: Inter, sans-serif;
+    Font-size: 18.72px;
+    Font-weight: 700;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.information h4 {
+    Font-family: "Open Sans";
+    Font-size: 14px;
+    Font-weight: 400;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.information p {
+    Font-family: "Open Sans";
+    Font-size: 15px;
+    Font-weight: 400;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.custom-shape-divider-bottom-1686244928 {
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1686244928 svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.information {
+    background-color: #f3f4f5;
+}
+
+.custom-shape-divider-bottom-1686244928 .shape-fill {
+    fill: #212529;
+}
+
+.container2 {
+    width: 90%;
+    margin: auto;
+    padding: 40px 0px;
+    background-color: #eee;
+    margin-top: 50px;
+
+}
+
+.photo-gallery {
+    display: flex;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 15px;
+
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border: solid #fff 5px;
+
+}
+
+.photo {
+    margin: 20px 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.layout {
+    width: 100%;
+    background-color: #00000096;
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: top 1s;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.photo:hover .layout {
+    top: 0;
+}
+
+.layout p {
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    Font-size: 16px;
+    Font-weight: 400;
+
+}
+
+.layout h3 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    Font-size: 24px;
+    Font-weight: 700;
+
+}
+
+.container4 {
+
+    width: 80%;
+    margin: auto;
+}
+
+.map iframe {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.details {
+    width: 100%;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+
+.item {
+    display: flex;
+    background-color: #eee;
+    width: 100%;
+    padding: 15px 15px;
+    width: 49%;
+}
+
+.item h2 {
+    Font-family: Inter, sans-serif;
+    Font-size: 20px;
+    Font-weight: 700;
+    margin: 10px 10px;
+    color: #7d7d7d;
+}
+
+.item p {
+    Font-family: "Open Sans";
+    Font-size: 16px;
+    Font-weight: 400;
+    margin: 10px 10px;
+    color: #212529;
+}
+
+.serve-icon {
+    background-color: #CE1212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    color: #fff;
+
+}
+
+.container5 {
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.label {
+    margin: 40px 0px;
+}
+
+.about {
+    display: flex;
+    gap: 15px;
+}
+
+.name {
+    width: 50%;
+}
+
+.name input {
+    width: 100%;
+}
+
+.email {
+    width: 50%;
+}
+
+.email input {
+    width: 100%;
+}
+
+.name,
+.email,
+.subject,
+.textarea,
+.btn-nine {
+    margin-bottom: 20px;
+    font-size: 13.3px;
+}
+
+.name input,
+.email input,
+.subject input {
+    height: 60px;
+}
+
+.subject input,
+.textarea textarea {
+    width: 100%;
+}
+
+.subject input,
+textarea {
+    font-family: "Open Sans";
+    font-size: 13.3px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #000000;
+    border: 1px solid #cccccc;
+}
+
+.btn5 button {
+    background-color: #CE1212;
+    border: solid rgb(5, 5, 0.5);
+    padding: 0px 25px;
+    height: 40px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 38px;
+    color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    Font-size: 15px;
+    margin-top: 20px;
+}
+
+.container6 {
+    width: 100%;
+    background-color:#000;
+    padding: 40px 40px;
+}
+
+.card {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    color: #fff;
+}
+
+.space {
+    width: 25%;
+    margin: 15px 15px;
+    padding: 15px 15px;
+}
+
+.target {
+    width: 50%;
+    margin: 15px 15px;
+    padding: 15px 15px;
+
+}
+
+.hero {
+    width: 25%;
+    margin: 15px 15px;
+    padding: 15px 15px;
+}
+
+.space1 {
+    display: flex;
+    padding: 0px 10px;
+}
+
+.space1 h2 {
+
+    margin-top: 10px;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.space1 img {
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+    margin-top: 5px;
+}
+
+.space p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 10px;
+}
+
+.space2 {
+    text-align: center;
+}
+
+.space2 h3 {
+    font-family: Inter, sans-serif;
+    font-size: 18.72px;
+    font-weight: 700;
+    margin: 15px 10px;
+}
+
+.space .brdr2 {
+    background-color: #ddd6;
+    width: 300PX;
+    height: 2PX;
+    margin: 10PX auto;
+
+}
+
+.space3 {
+    display: flex;
+}
+
+.space3 i {
+    Font-family: "Font Awesome 6 Brands";
+    Font-size: 24px;
+    Font-weight: 400;
+    Line-height: 24px;
+    margin: 10px 20px;
+}
+
+.target1 h2 {
+    font-family: Inter, sans-serif;
+    font-size: 18.72px;
+    font-weight: 700;
+    margin: 10px 10px;
+}
+
+.target1 p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 10px;
+
+}
+
+
+
+
+
+
+.target2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.target2 input{
+    width: 80%;
+}
+
+.target2 input,
+.target2 button{
+    padding: 10px;
+}
+
+.target2 button{
+    margin-left: 5px;
+    color: #ffffff;
+    background-color: #ce1212;
+    border-color: transparent;
+    transition: all .5s;
+    margin-left: 10px;
+}
+
+.target2 button:hover {
+    background-color: hsl(0, 84%, 49%);
+}
+
+.target2 button i {
+    padding-right: 5px;
+}
+.target3 h3 {
+    font-family: Inter, sans-serif;
+    font-size: 18.72px;
+    font-weight: 700;
+    margin: 15px 10px;
+
+}
+
+.target4 {
+    display: flex;
+
+}
+
+.target5 {
+    width: 50%;
+}
+
+.target5 h4 {
+    margin: 10px 5px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.target5 span {
+    margin: 10px 5px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero 
+{
+    padding: 30px 30px;
+}
+.hero1 
+{
+    display: flex;
+    padding: 10px 10px;
+}
+.hero1 i{
+    padding: 0px 10px;
+    margin-top: 15px;
+    color: #CE1212;
+    Font-family:"Font Awesome 6 Free";
+    Font-size:22px;
+    Font-weight:900;
+}
+.hero1 p 
+{
+    margin: 10px 5px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero h3 
+{
+    font-family: Inter, sans-serif;
+    font-size: 18.72px;
+    font-weight: 700;
+    margin: 15px 10px;
+}
+
+
+@media screen and  (max-width:576px)
+{
+    .wave
+    {
+        width: 100%;
+       
+    }
+    .meals
+    {
+        flex-wrap: wrap;
+    }
+    .title
+    {
+        width: 100%;
+    }
+    
+}
+@media screen and  (max-width:576px)
+{
+    .photo-gallery
+    {
+        flex-direction: column;
+    }
+    
+}
+
+
+@media screen and  (min-width: 768px) and (max-width: 992px) 
+{
+    .map  {
+        width: 100%;
+       
+    }
+    .title
+    {
+        width: 100%;
+    }
+    .items
+    {
+       
+        width: 100%;
+      
+    }
+    .item
+    {
+        width:50% ;
+    }
+   
+}
+
+
+@media screen and  (min-width: 576px) and (max-width: 768px) 
+{
+    .map  {
+        width: 100%;
+       
+    }
+    .title
+    {
+        width: 100%;
+    }
+    .items
+    {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .item
+    {
+        width:100% ;
+    }
+   
+}
+@media screen and  (max-width:576px)
+{
+    .map  {
+        width: 100%;
+       
+    }
+    .title
+    {
+        width: 100%;
+    }
+    .items
+    {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .item
+    {
+        width:100% ;
+    }
+    
+    
+}
+
+@media screen and  (max-width:576px)
+{
+    .label {
+        width: 100%;
+       
+    }
+    .about
+    {
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .name .email 
+    {
+        width: 100% ;
+    }
+    
+    
+}
+
+@media screen and  (max-width:576px)
+{
+    .card 
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .space {
+      
+       width: 100%;
+    }
+    .target{
+      
+        width: 100%;
+     }
+     .hero {
+      
+        width: 100%;
+     }
+   
+    
+}
+@media screen and  (min-width: 576px) and (max-width: 768px) 
+{
+    
+    .card 
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .space {
+      
+       width: 100%;
+    }
+    .target{
+      
+        width: 100%;
+     }
+     .hero {
+      
+        width: 100%;
+     }
+}
+
+@media screen and  (min-width: 768px) and (max-width: 992px) 
+{
+    
+    .card 
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .space {
+      
+       width: 100%;
+    }
+    .target{
+      
+        width: 100%;
+     }
+     .hero {
+      
+        width: 100%;
+     }
+}
+@media screen and  (max-width:576px)
+{
+    .hello-inf1
+     {
+        width: 100%;
+     }
+     .hello-img
+     {
+        width: 100%;
+     }
+    .container-hello
+    {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
